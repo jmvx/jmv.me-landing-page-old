@@ -1,0 +1,133 @@
+* { /*zeros default margin/padding*/
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+body {
+    text-rendering:optimizeLegibility;
+    font-family:Verdana, sans-serif;
+    text-align:justify;
+    font-size:10pt;
+    color:gray;  
+    background-color:white;
+    -webkit-text-size-adjust: none;
+    line-height: 19px;
+}
+
+#container {
+    width:760px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:10px;
+    display:block;
+    padding:20px;
+}
+
+#footer {
+    margin-left:auto;
+    margin-right:auto;
+    border-top:dotted 1px #c0c0c0;
+    display:block;
+    clear:both;
+    padding-top:18px;
+    text-align:left;
+}
+
+p {
+    padding-bottom:18px;
+}
+
+ol {
+    margin-top:18px;
+    margin-bottom:18px;
+}
+
+a {
+    color:#6f4a69;
+    text-decoration:none;
+}
+
+h1.pagetitle {
+   margin-top:17px;
+   margin-bottom:60px;
+}
+
+h1, h1 a, h2, h2 a, h3, h3 a {
+    font-family: 'Ubuntu Mono', sans-serif;    
+    text-align:left;
+    font-weight:normal;
+    color:#601a55;
+}
+
+h2 {
+    font-size:18px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+h3 {
+    font-size:15px;
+    margin-top:15px;
+    margin-bottom:15px;
+}
+
+h2.entrytitle > a {
+    border-bottom:none;
+}
+
+.returnhome {
+    font-size:10pt;
+    padding-top:16px;
+    float:right;
+}
+
+.toc {
+    -ms-column-count: 2;
+    -o-column-count: 2;
+    -moz-column-count: 2;
+    -khtml-column-count: 2;
+    column-count: 2;
+}
+
+#links {
+    border-top:dotted 1px #c0c0c0;
+	height:200px;
+	background-color:#F0F0F0;
+		
+}
+
+#links > div {
+    float:left;
+    margin-top:18px;
+    margin-bottom:18px;
+    min-width:80px;
+	margin-left:20px;
+}
+
+#links > div:not(:first-child) {
+    margin-left:128px;
+}
+
+#links > div > ul {
+    padding-left:0px;
+    margin-left:0px;
+}
+
+#links > div > ul > li {
+    list-style:none;
+}
+
+ol > li > a, .returntop > a {
+    border-bottom:none;
+}
+
+.returntop {
+    text-align:center;
+    margin-bottom:20px;
+    margin-top:20px;
+}
+
+.entry {
+    border-top:1px dotted #c0c0c0;
+}
